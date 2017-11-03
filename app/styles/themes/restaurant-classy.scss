@@ -1,0 +1,167 @@
+.bar-stable {
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16),0 2px 15px rgba(0, 0, 0, 0.08);
+}
+.home-hello .item{
+// background: rgba(255,255,255, 0.8);
+background: linear-gradient(transparent 0%, rgba(0,0,0,0.7) 80%);
+}
+
+i.icon.ion-record {
+    color: white;
+    font-size: 18px;
+} // restyling the pagination icon on home slider
+
+.box.blue.home-hello .item h2 {
+	font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.row.colums-two {
+	padding: 0px;
+  margin-top: 0px;
+	.card {
+		margin: 0px !important;
+	}
+}
+
+//
+// Cards
+//
+
+.card {
+    margin: 0px;
+    border-radius: 0px;
+}
+
+.card.col.home h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 70px 0 10px 0;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.82),0 2px 2px rgba(0,0,0,0.82);
+}
+
+.card.col a.item h3 {
+    font-weight: bold;
+    color: #601608;
+    font-size: 14px;
+}
+
+
+.card.col.home .item-text-wrap:before {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    content: "";
+}
+
+a.item.item-text-wrap {
+    &:nth-child(1) {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg");
+    background-size: cover;}
+    // &:nth-child(2) {
+    // background-image: url("https://eat24-files-live.s3.amazonaws.com/cuisines/v4/thai.jpg");
+    // background-size: cover;}
+}
+
+.item.item-text-wrap.item-thumbnail-left h2 {
+    font-size: 22px;
+    color: $stable;
+    margin-bottom: 10px;
+} // food entries
+
+
+
+
+//
+// Sidebar
+//
+
+.scroll .item-complex .item-content {
+    background-color: $stable;
+    color: white;
+}
+
+.item-divider {
+    background-color: darken( $stable, 10% );
+    border: none;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.item-complex.item-icon-left {
+    border: none;
+}
+
+.item-icon-left .icon, .item-icon-right .icon {
+    font-size: 24px;
+}
+
+.item-complex.item-icon-left .item-content {
+    font-size: 15px;
+}
+
+i.icon.ion-knife:before {
+    margin-left: 10px;
+}
+
+
+//
+// Content
+//
+
+
+.content-inner h1 {
+    color: $stable;
+}
+
+.content-inner h3 {
+    font-size: 30px;
+    color: $stable;
+}
+
+a.button.button-block {
+    font-size: 14px;
+}
+
+a.button.button-block i.icon {
+    margin-right: 8px;
+}
+
+a.button.button-block i.icon:before {
+    font-size: 18px;
+}
+
+a.item.item-icon-left.item-icon-left-extended.item-text-wrap h2 {
+    font-weight: bold;
+    color: $stable;
+}
+
+
+//
+// Cart
+//
+
+ion-item.item-thumbnail-left.item-text-wrap.item.item-complex.item-right-editable .item-content {
+    background-color: white;
+    padding-top: 20px;
+}
+
+.list a.item.item-text-wrap:nth-child(1) {
+    background: white;
+}
+
+.subtitle h2 {
+    text-align: center;
+}
+
+.bar.bar-footer .title {
+    font-size: 22px;
+    padding-top: 10px;
+}

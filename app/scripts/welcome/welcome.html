@@ -1,0 +1,23 @@
+<ion-view hide-nav-bar="true">
+	<ion-content scroll="false" class="as-welcome-view">
+		<ion-slides options="vm.options" slider="vm.slider" ng-if="vm.slides.length">
+			<ion-slide-page ng-repeat="item in vm.slides" style="background-image: url({{item.image}})">
+				<div class="overlay">
+				</div>
+			</ion-slide-page>
+		</ion-slides>
+		<div layout-padding class="buttons-field">
+			<button ng-click="vm.login()" class="button button-block button-positive">
+				Enter the App
+			</button>
+			<div ng-if="false">
+				<button ng-click="vm.loginWithFB()" class="button button-block button-stable">
+					Login with Facebook
+				</button>
+				<button ng-click="vm.loginWithGoogle()" class="button button-block button-stable">
+					Login with Google
+				</button>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>
